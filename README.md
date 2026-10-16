@@ -50,7 +50,7 @@ Aplikasi pemesanan menu kantin kampus berbasis web menggunakan **PHP Native** ta
 - ✅ Input yang tidak valid menampilkan pesan kesalahan tanpa mengubah isi keranjang
 - ✅ Penerapan `htmlspecialchars()` untuk mencegah eksekusi kode berbahaya saat menampilkan input pengguna
 
-### Tahap 4 — Keranjang Belanja dengan Session 
+### Tahap 4 — Keranjang Belanja dengan Session
 - ✅ Keranjang disimpan dalam variabel superglobal `$_SESSION`
 - ✅ Menampilkan nama menu, harga satuan, jumlah, dan subtotal per item
 - ✅ Jika menu yang sama ditambahkan kembali, jumlah akan digabungkan
@@ -59,7 +59,7 @@ Aplikasi pemesanan menu kantin kampus berbasis web menggunakan **PHP Native** ta
 - ✅ Menampilkan pesan ketika keranjang masih kosong
 - ✅ Isi keranjang tetap tersedia meskipun pengguna berpindah halaman atau me-refresh browser
 
-### Tahap 5 — Fungsi Perhitungan dan Diskon Selesai
+### Tahap 5 — Fungsi Perhitungan dan Diskon 
 - ✅ Membuat dan menggunakan fungsi khusus untuk perhitungan:
 - `hitungSubtotal($harga, $jumlah)` — menghitung harga × jumlah
 - `hitungTotal($keranjang)` — menghitung subtotal seluruh pesanan, diskon, dan total akhir
